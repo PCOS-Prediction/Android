@@ -1,0 +1,23 @@
+package com.pc.pcosprediction
+
+data class MLModel (var period_length:Int,
+                    var cycle_length:Int,
+                    var age:Int,
+                    var overweight:Int,
+                    var weight_gain_or_lose:Int,
+                    var missed_periods:Int,
+                    var conceiving:Int,
+                    var hair_chin:Int,
+                    var hair_cheeks:Int,
+                    var hair_breasts:Int,
+                    var hair_lips:Int,
+                    var hair_arms:Int,
+                    var hair_inner_thighs:Int,
+                    var acne:Int,
+                    var hair_loss:Int,
+                    var dark_patches:Int,
+                    var tired:Int,
+                    var mood_swings:Int,
+                    var exercise:Int,
+                    var eat_outside:Int,
+                    var canned_food:Int )
